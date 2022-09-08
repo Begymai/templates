@@ -1,31 +1,35 @@
-.projects{
+.contact{
     margin-top: 100px;
     &__name{
-        text-align: center;
         font-family: 'Oswald';
         font-weight: 500;
         font-size: 36px;
         text-transform: uppercase;
-        color: #404149;
+        text-align: center;
+
+        color: #000000;
+        margin-bottom: 60px;
     }
+
     &__content{
-        margin-top: 60px;
         display: flex;
         justify-content: space-between;
+        text-align: center;
     }
+
     &__title{
         font-family: 'Oswald';
         font-weight: 500;
         font-size: 24px;
-        color: #404149;
+        text-align: center;
+        color: #999999;
     }
     &__description{
         font-family: 'Oswald';
-        font-weight: 400;
-        font-size: 16px;
-        color: #999999;
-    }
-    &__item{
-        max-width: 350px;
+        font-weight: 500;
+        font-size: 24px;
+        text-align: center;
+        color: #000000;
+        width: 250px;
     }
 }

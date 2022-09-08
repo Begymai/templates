@@ -1,0 +1,21 @@
+.partner{
+    margin-top: 150px;
+    background: #404149;
+    &__title{
+        padding-top: 100px;
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 36px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    &__content{
+        display: flex;
+        justify-content: space-around;
+    }
+    &__item{
+        padding-bottom: 100px;
+        margin-top: 60px;
+    }
+}

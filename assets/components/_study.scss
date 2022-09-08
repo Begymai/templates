@@ -1,0 +1,32 @@
+.study{
+    margin-top: 150px;
+    &__name{
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 36px;
+        text-transform: uppercase;
+        color: #000000;
+        text-align: center;
+        margin-bottom: 66px;
+    }
+    &__content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__item{
+        background: #F7F7F7;
+        text-align: center;
+        padding: 59px 81px;
+        max-width: 350px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    &__title{
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 21px;
+        color: #000000;
+        width: 172px;
+        margin-top: 30px;
+    }
+}
