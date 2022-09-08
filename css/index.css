@@ -1,1 +1,144 @@
-/*# sourceMappingURL=index.css.map */
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+body {
+  font-family: "Oswald";
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.header {
+  font-family: "Oswald";
+  margin-top: 30px;
+  /* Гамбургер иконка */
+  /* Меняем гамбургер иконку, когда меню открыто */
+  /* Меню, которое будет появляться */
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+.header__menu-btn {
+  background: red;
+  padding: 11px 14px;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+.header__menu-btn span {
+  width: 30px;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #222222;
+  transition: all 0.5s;
+}
+.header__menu-btn span:nth-of-type(2) {
+  top: calc(50% - 5px);
+}
+.header__menu-btn span:nth-of-type(3) {
+  top: calc(50% + 5px);
+}
+.header__menu-btn.active span:nth-of-type(1) {
+  display: none;
+}
+.header__menu-btn.active span:nth-of-type(2) {
+  top: 50%;
+  transform: translate(-50%, 0%) rotate(45deg);
+}
+.header__menu-btn.active span:nth-of-type(3) {
+  top: 50%;
+  transform: translate(-50%, 0%) rotate(-45deg);
+}
+.header__menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  background: #FFEFBA;
+  transform: translateX(-100%);
+  transition: transform 0.5s;
+}
+.header__menu.active {
+  transform: translateX(0);
+}
+.header__menu li {
+  list-style-type: none;
+}
+
+.years {
+  text-align: center;
+}
+.years__content {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 30px;
+}
+.years__number {
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 107px;
+  color: #F7654A;
+}
+.years__year {
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 36px;
+  color: #000000;
+}
+.years__marcet {
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 18px;
+  color: #999999;
+}
+
+.projects {
+  margin-top: 100px;
+}
+.projects__content {
+  display: flex;
+  justify-content: space-between;
+}
+.projects__title {
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 24px;
+  color: #404149;
+}
+.projects__description {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #999999;
+}
+.projects__img {
+  min-width: 350px;
+}/*# sourceMappingURL=index.css.map */

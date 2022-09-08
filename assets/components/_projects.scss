@@ -1,0 +1,22 @@
+.projects{
+    margin-top: 100px;
+    &__content{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title{
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 24px;
+        color: #404149;
+    }
+    &__description{
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 16px;
+        color: #999999;
+    }
+    &__img{
+        min-width: 350px;
+    }
+}

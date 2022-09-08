@@ -1,0 +1,30 @@
+.years {
+    text-align: center;
+    &__content{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+    }
+
+    &__number {
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 72px;
+        line-height: 107px;
+        color: #F7654A;
+    }
+
+    &__year {
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 36px;
+        color: #000000;
+    }
+
+    &__marcet {
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 18px;
+        color: #999999;
+    }
+}
