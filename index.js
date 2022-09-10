@@ -115,7 +115,6 @@ study.map(item => {
 const building = [
     {
         imgUrl: "./assets/img/building/building.svg",
-
     },
     {
         imgUrl: "./assets/img/building/building.svg",
@@ -201,7 +200,6 @@ const contact = [
         description: "INFO@VIP.RU"
     },
 ];
-
 const contact__content = document.querySelector(".contact__content");
 
 contact.map(item => {
