@@ -195,8 +195,11 @@ li {
   justify-content: start;
 }
 .building__img {
-  max-width: 350px;
-  max-height: 307px;
+  max-width: auto;
+  height: auto;
+}
+.building__item {
+  width: 25%;
 }
 
 .partner {
@@ -244,6 +247,7 @@ li {
   font-size: 24px;
   text-align: center;
   color: #999999;
+  margin-top: 36px;
 }
 .contact__description {
   font-family: "Oswald";
@@ -251,5 +255,6 @@ li {
   font-size: 24px;
   text-align: center;
   color: #000000;
-  width: 250px;
+  width: 255px;
+  margin-top: 25px;
 }/*# sourceMappingURL=index.css.map */

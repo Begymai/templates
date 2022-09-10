@@ -136,7 +136,7 @@ const building = [
     },
     {
         imgUrl: "./assets/img/building/building.svg",
-    },
+    }
 ];
 
 const building__content = document.querySelector(".building__content");
@@ -211,3 +211,51 @@ contact.map(item => {
             </div>    
             `
 });
+
+const answers = [
+    {
+      question: "РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?",
+      caret: document.querySelector(".answers__caret"),
+      summary:
+        'Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. ',
+    },
+    {
+      question: "РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?",
+      caret: document.querySelector(".answers__caret"),
+      summary:
+        'Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. ',
+    },
+    {
+      question: "РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?",
+      caret: document.querySelector(".answers__caret"),
+      summary:
+        'Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. ',
+    },
+    {
+      question: "РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?",
+      caret: document.querySelector(".answers__caret"),
+      summary:
+        'Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. ',
+    },
+    {
+      question: "РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?",
+      caret: document.querySelector(".answers__caret"),
+      summary:
+        'Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. ',
+    },
+  ];
+  
+  const answersItems = document.querySelector(".answers__items");
+  
+  answers.map((item) => {
+    answersItems.innerHTML += `
+  <div class="answers__dropdown">
+  <div class="answers__details">
+      <div class="answers__question">${item.question}</div>
+  </div>
+  <p class="answers__summary">${item.summary}</p>
+  </div>
+  
+  `;
+  });
+  

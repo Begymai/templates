@@ -1,0 +1,62 @@
+.answers {
+    &__title {
+      font-family: "Oswald";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 53px;
+      text-transform: uppercase;
+      color: $black;
+      text-align: center;
+      margin-top: 50px;
+    }
+    &__dropdown {
+      margin-top: 60px;
+      display: grid;
+      row-gap: 40px;
+    }
+    &__details {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+    &__question {
+      font-family: "Oswald";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 36px;
+      color: $orange;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+    &__caret {
+      width: 0;
+      height: 0;
+      border-bottom: 7px solid white;
+      border-top: 7px solid white;
+      border-left: 8px solid $orange;
+      transition: 0.2px;
+      color: transparent;
+      cursor: pointer;
+    }
+  
+    &__caret-rotate {
+      transform: rotate(270deg);
+    }
+    &__summary {
+      max-width:730px;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      color: grey;
+      display: none;
+    }
+    &__summary-open{
+      display: block;
+    }
+  }
+  
+  
